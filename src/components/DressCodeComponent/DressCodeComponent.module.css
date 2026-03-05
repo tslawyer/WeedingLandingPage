@@ -1,4 +1,4 @@
-.day_plan {
+.dress_first_div {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px 30px;
@@ -8,18 +8,26 @@
   font-family: "Georgia", serif;
   color: #4b3c59;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.day_plan h2 {
+
+.dress_second_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dress_second_div img {
+  width: 40px;
+}
+.dress_second_div h2 {
   font-family: "Philosopher", sans-serif;
   color: black;
   font-weight: 100;
   font-size: clamp(30px, 6vw, 46px);
   margin: 0;
-  text-align: center;
 }
 
-.day_plan p {
+.dress_first_div p {
   margin: 12px 0;
   font-size: 18px;
   line-height: 1.6;
@@ -27,7 +35,7 @@
   padding-left: 25px;
 }
 
-.day_plan p::before {
+.dress_first_div p::before {
   content: "●";
   position: absolute;
   left: 0;
@@ -35,8 +43,4 @@
   transform: translateY(-50%);
   color: #888888;
   font-size: 14px;
-}
-
-.day-plan p::first-letter {
-  font-weight: bold;
 }
