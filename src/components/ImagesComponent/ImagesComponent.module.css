@@ -17,12 +17,6 @@ ul {
   margin: 0;
 }
 
-.images_div {
-  width: min(100%, 900px);
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .ul_img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -37,6 +31,9 @@ ul {
   border-radius: 20px;
   overflow: hidden;
   justify-self: center;
+  padding: 6px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: #e5ccab;
 }
 
 .image {
@@ -44,4 +41,9 @@ ul {
   height: 300px;
   object-fit: cover;
   display: block;
+  transition: transform 0.7s ease;
+  border-radius: 15px;
+}
+.ul_img li:hover .image {
+  transform: scale(1.07);
 }
