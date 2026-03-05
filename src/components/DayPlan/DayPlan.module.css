@@ -1,0 +1,41 @@
+.day_plan {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: #f8f8f8;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+  color: #4b3c59;
+  width: 100%;
+  margin-top: 30px;
+}
+.day_plan h2 {
+  font-family: "Philosopher", sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: clamp(30px, 6vw, 46px);
+  margin: 0;
+}
+
+.day_plan p {
+  margin: 12px 0;
+  font-size: 18px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 25px;
+}
+
+.day_plan p::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888888;
+  font-size: 14px;
+}
+
+.day-plan p::first-letter {
+  font-weight: bold;
+}
