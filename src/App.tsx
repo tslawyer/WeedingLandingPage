@@ -5,6 +5,7 @@ import HeroComponent from "./components/HeroComponent/HeroComponent";
 import ImagesComponent from "./components/ImagesComponent/ImagesComponent";
 import MainText from "./components/MainText/MainText";
 import CountDown from "./components/CountDown/CountDown";
+import FooterComponent from "./components/FooterComponent/FooterComponent";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <DayPlan />
       <DressCodeComponent />
       <CountDown />
+      <FooterComponent />
       {/* <DateComponent /> */}
     </>
   );
