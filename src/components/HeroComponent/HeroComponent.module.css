@@ -32,7 +32,7 @@ h1 {
   font-size: clamp(10px, 2.5vw, 20px);
   color: whitesmoke;
   margin: 0;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .heart {
