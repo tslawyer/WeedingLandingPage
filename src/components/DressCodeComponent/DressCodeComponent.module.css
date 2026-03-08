@@ -9,6 +9,9 @@
   color: #4b3c59;
   width: 100%;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dress_second_div {
@@ -16,8 +19,8 @@
   align-items: center;
   justify-content: center;
 }
-.dress_second_div img {
-  width: 40px;
+.dress_first_div img {
+  width: 100px;
 }
 .dress_second_div h2 {
   font-family: "Philosopher", sans-serif;
@@ -25,6 +28,7 @@
   font-weight: 100;
   font-size: clamp(30px, 6vw, 46px);
   margin: 0;
+  text-align: center;
 }
 
 .dress_first_div p {
@@ -43,4 +47,11 @@
   transform: translateY(-50%);
   color: #888888;
   font-size: 14px;
+}
+
+.div_color {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
