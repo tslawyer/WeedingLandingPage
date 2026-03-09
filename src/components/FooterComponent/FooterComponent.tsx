@@ -19,6 +19,7 @@ const FooterComponent = () => {
         <div className={styles.faqItem}>
           <button className={styles.faqToggle} onClick={handleOpen}>
             {" "}
+            <p>Раскрой меня</p>
             <span className={`${styles.arrow} ${open ? styles.open : ""}`} />
           </button>
           {open && (
@@ -35,6 +36,7 @@ const FooterComponent = () => {
         <ul className={styles.list}>
           <li className={styles.item}>Юрий</li>
           <li className={styles.item}>
+            <p>Нажми на значок чтобы написать</p>
             <a
               href="https://wa.me/4915566689575"
               target="_blank"
@@ -45,8 +47,9 @@ const FooterComponent = () => {
           </li>
           <li className={styles.item}>Анна</li>
           <li className={styles.item}>
+            <p>Нажми на значок чтобы написать</p>
             <a
-              href="https://wa.me/4915566689575"
+              href="https://wa.me/4917620619301"
               target="_blank"
               rel="noopener noreferrer"
             >
