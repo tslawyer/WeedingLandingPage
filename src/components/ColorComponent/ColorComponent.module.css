@@ -11,6 +11,18 @@
   transform: scale(1.05);
 }
 
+.color_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* лучше чем center */
+  gap: 6px; /* одинаковый отступ между кругом и подписью */
+}
+.color_block p {
+  margin: 0; /* убираем дополнительные отступы браузера */
+  line-height: 1.2;
+}
+
 @media (min-width: 601px) {
   .circle {
     width: 50px;
