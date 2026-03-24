@@ -15,11 +15,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* лучше чем center */
-  gap: 6px; /* одинаковый отступ между кругом и подписью */
+  justify-content: flex-start;
+  gap: 6px;
 }
 .color_block p {
-  margin: 0; /* убираем дополнительные отступы браузера */
+  margin: 0;
   line-height: 1.2;
 }
 
